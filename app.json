@@ -1,0 +1,32 @@
+{
+  "name": "AeonMusisBotGo",
+  "description": "Telegram music search bot",
+  "website": "https://github.com/5hojib/AeonMusisBotGo",
+  "repository": "https://github.com/yourusername/AeonMusisBotGo",
+  "success_url": "/",
+  "env": {
+    "APP_ID": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash",
+      "required": true
+    },
+    "USER_SESSION": {
+      "description": "Your Telegram user session string",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram bot token",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "stack": "container"
+}
