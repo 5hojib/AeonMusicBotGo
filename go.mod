@@ -1,4 +1,4 @@
-module main
+module AeonMusicBotGo
 
 go 1.23.0
 

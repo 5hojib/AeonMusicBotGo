@@ -8,7 +8,7 @@ RUN go mod download
 
 COPY . .
 
-RUN CGO_ENABLED=0 GOOS=linux go build -o aeonmusicbot ./main.go
+RUN CGO_ENABLED=0 GOOS=linux go build -o aeonmusicbot .
 
 FROM alpine:latest
 
