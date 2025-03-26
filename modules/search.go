@@ -6,8 +6,8 @@ import (
     "strconv"
 
     "github.com/amarnathcjd/gogram/telegram"
-    "main/config"
-    "main/utils"
+    "AeonMusisBotGo/config"
+    "AeonMusisBotGo/utils"
 )
 
 func InlineMusicSearch(i *telegram.InlineQuery) error {

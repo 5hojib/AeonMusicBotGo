@@ -1,32 +1,32 @@
 {
-  "name": "AeonMusisBotGo",
-  "description": "Telegram music search bot",
-  "website": "https://github.com/5hojib/AeonMusisBotGo",
-  "repository": "https://github.com/yourusername/AeonMusisBotGo",
-  "success_url": "/",
-  "env": {
-    "APP_ID": {
-      "description": "Your Telegram API ID",
-      "required": true
+    "name": "AeonMusicBotGo",
+    "description": "Telegram Music Bot",
+    "repository": "https://github.com/5hojib/AeonMusicBotGo",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5968/5968804.png",
+    "success_url": "/",
+    "env": {
+        "APP_ID": {
+            "description": "Telegram APP_ID from my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Telegram API_HASH from my.telegram.org",
+            "required": true
+        },
+        "USER_SESSION": {
+            "description": "Telegram user session string",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Telegram bot token from @BotFather",
+            "required": true
+        }
     },
-    "API_HASH": {
-      "description": "Your Telegram API Hash",
-      "required": true
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "basic"
+        }
     },
-    "USER_SESSION": {
-      "description": "Your Telegram user session string",
-      "required": true
-    },
-    "BOT_TOKEN": {
-      "description": "Your Telegram bot token",
-      "required": true
-    }
-  },
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "basic"
-    }
-  },
-  "stack": "container"
+    "stack": "container"
 }
