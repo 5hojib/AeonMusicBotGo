@@ -1,4 +1,4 @@
-module AeonMusicBotGo
+module github.com/5hojib/AeonMusicBotGo
 
 go 1.23.0
 
