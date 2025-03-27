@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/amarnathcjd/gogram/telegram"
-	"AeonMusisBotGo/config"
-	"AeonMusisBotGo/modules"
+	"github.com/5hojib/AeonMusisBotGo/config"
+	"github.com/5hojib/AeonMusisBotGo/modules"
 )
 
 var (
